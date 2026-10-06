@@ -1,0 +1,1453 @@
+{
+  "admins": [
+    {
+      "id": "admin-1",
+      "email": "sokhtshirt@gmail.com",
+      "passwordHash": "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+      "salt": "salt123",
+      "name": "Shokh Admin",
+      "role": "super_admin",
+      "createdAt": 1791036935333,
+      "failedAttempts": 0
+    }
+  ],
+  "customers": [],
+  "products": [
+    {
+      "id": "5328cecc-749b-4173-b7c6-7b9e85970daf",
+      "name": "Test Printed Heavyweight Graphic Tee",
+      "productType": "printed",
+      "productTypes": [
+        "printed"
+      ],
+      "category": "T-Shirts",
+      "price": 690,
+      "originalPrice": 850,
+      "wholesalePrice": 450,
+      "minWholesaleQty": 25,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800",
+          "label": "Test Front"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#000000"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L"
+      ],
+      "description": "Cool graphic streetwear print",
+      "shortDescription": "",
+      "fabric": "100% Combed Cotton",
+      "gsm": "240 GSM",
+      "fit": "Relaxed Drop Shoulder",
+      "badge": "Trending",
+      "sku": "TST-9868",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "printed",
+        "graphic",
+        "streetwear"
+      ],
+      "variants": [
+        {
+          "id": "c4d3ef01-a9e5-4547-9247-c482c4d6008a",
+          "sku": "TST-9868-BK-M",
+          "color": "Jet Black",
+          "size": "M",
+          "stock": 50,
+          "reserved": 0
+        },
+        {
+          "id": "254516aa-c354-4696-a38f-3d606995b61c",
+          "sku": "TST-9868-BK-L",
+          "color": "Jet Black",
+          "size": "L",
+          "stock": 50,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288286453,
+      "updatedAt": 1791288286453
+    },
+    {
+      "id": "0c50aca6-2175-4c23-b669-e33cda526353",
+      "name": "Puffer Jacket With Pocket Detail",
+      "productType": "normal",
+      "productTypes": [
+        "normal"
+      ],
+      "category": "Jacket",
+      "price": 47.55,
+      "originalPrice": 52.99,
+      "minWholesaleQty": 25,
+      "image": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791033016883_1791033006080_puffer-jacket-with-pocket-detail-6079-main.png",
+      "images": [
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791033016883_1791033006080_puffer-jacket-with-pocket-detail-6079-main.png",
+          "label": "Puffer Jacket With Pocket Detail"
+        },
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791033017436_1791033006682_puffer-jacket-with-pocket-detail-6079-gallery-0.png",
+          "label": "Puffer Jacket With Pocket Detail"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Sage Green",
+          "hex": "#a7f3d0"
+        },
+        {
+          "name": "Pure White",
+          "hex": "#ffffff"
+        }
+      ],
+      "sizes": [
+        "S",
+        "XL",
+        "M"
+      ],
+      "description": "Cropped puffer jacket made of technical fabric. High neck and long sleeves. Flap pocket at the chest and in-seam side pockets at the hip. Inside pocket detail. Hem with elastic interior. Zip-up front.",
+      "shortDescription": "Technical outerwear with pocket detail.",
+      "fabric": "Technical Fabric / 100% Combed Cotton",
+      "gsm": "280 GSM",
+      "fit": "Relaxed Fit",
+      "badge": "New Arrival",
+      "sku": "SKU-9701",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "puffer",
+        "jacket",
+        "streetwear"
+      ],
+      "variants": [
+        {
+          "id": "5f1df08c-e922-42ba-b781-dbd6ccc3d085",
+          "sku": "SKU-9701-SA-S",
+          "color": "Sage Green",
+          "size": "S",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "d08b5955-a5cd-4030-a8c7-da366493ad1c",
+          "sku": "SKU-9701-PU-XL",
+          "color": "Pure White",
+          "size": "XL",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "1520cdc2-24b6-498f-80a6-2e81bd4cb6ab",
+          "sku": "SKU-9701-SA-M",
+          "color": "Sage Green",
+          "size": "M",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "a96add93-1c7d-4a08-ba4e-92670ddf4eb7",
+          "sku": "SKU-9701-SA-XL",
+          "color": "Sage Green",
+          "size": "XL",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "60a93531-f476-4b96-a398-d3a77dcfaeef",
+          "sku": "SKU-9701-PU-S",
+          "color": "Pure White",
+          "size": "S",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "bf43ea1e-98d8-48f1-96e8-87f19384c6ce",
+          "sku": "SKU-9701-PU-M",
+          "color": "Pure White",
+          "size": "M",
+          "stock": 77,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288287393,
+      "updatedAt": 1791288287393
+    },
+    {
+      "id": "0062df4c-d1ff-4d9a-af75-787de2809d52",
+      "name": "Signature Drop Shoulder Heavyweight Tee",
+      "productType": "normal",
+      "productTypes": [
+        "normal"
+      ],
+      "category": "T-Shirts",
+      "price": 650,
+      "originalPrice": 790,
+      "wholesalePrice": 390,
+      "minWholesaleQty": 25,
+      "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+          "label": "Signature Drop Shoulder Heavyweight Tee"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=800&auto=format&fit=crop&q=80",
+          "label": "Signature Drop Shoulder Heavyweight Tee"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&auto=format&fit=crop&q=80",
+          "label": "Signature Drop Shoulder Heavyweight Tee"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Gray",
+          "hex": "#374151"
+        },
+        {
+          "name": "Pure White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Jet Black",
+          "hex": "#111827"
+        },
+        {
+          "name": "Sage Green",
+          "hex": "#a7f3d0"
+        }
+      ],
+      "sizes": [
+        "S",
+        "XXL",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Premium 240 GSM combed compact cotton with relaxed drop-shoulder cut, reinforced ribbed collar, and anti-shrink enzyme wash finish.",
+      "shortDescription": "240 GSM Combed Cotton • Relaxed Drop Shoulder",
+      "fabric": "100% Combed Compact Cotton",
+      "gsm": "240 GSM",
+      "fit": "Relaxed Drop Shoulder",
+      "badge": "Bestseller",
+      "sku": "SHK-TEE-001",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "drop-shoulder",
+        "heavyweight",
+        "cotton",
+        "plain",
+        "basics"
+      ],
+      "variants": [
+        {
+          "id": "890adffc-f5fc-4835-a1df-f5d61303095a",
+          "sku": "SHK-TEE-001-CH-S",
+          "color": "Charcoal Gray",
+          "size": "S",
+          "stock": 54,
+          "reserved": 0
+        },
+        {
+          "id": "fce19a82-3db5-4cfc-a520-97b504acd04a",
+          "sku": "SHK-TEE-001-PU-S",
+          "color": "Pure White",
+          "size": "S",
+          "stock": 39,
+          "reserved": 0
+        },
+        {
+          "id": "f0b72e25-dd5a-41ba-aae9-83028d2e771d",
+          "sku": "SHK-TEE-001-JE-S",
+          "color": "Jet Black",
+          "size": "S",
+          "stock": 33,
+          "reserved": 0
+        },
+        {
+          "id": "b71b5831-f8cb-46ba-ba69-1a43074bf626",
+          "sku": "SHK-TEE-001-JE-XXL",
+          "color": "Jet Black",
+          "size": "XXL",
+          "stock": 59,
+          "reserved": 0
+        },
+        {
+          "id": "8ad4f05b-1475-483d-8cd6-c916a05b159f",
+          "sku": "SHK-TEE-001-CH-M",
+          "color": "Charcoal Gray",
+          "size": "M",
+          "stock": 27,
+          "reserved": 0
+        },
+        {
+          "id": "5d15045c-d7ac-40c2-b2c1-a94247a59393",
+          "sku": "SHK-TEE-001-SA-S",
+          "color": "Sage Green",
+          "size": "S",
+          "stock": 39,
+          "reserved": 0
+        },
+        {
+          "id": "792c4494-ff09-48c5-a547-02e84b581163",
+          "sku": "SHK-TEE-001-PU-M",
+          "color": "Pure White",
+          "size": "M",
+          "stock": 58,
+          "reserved": 0
+        },
+        {
+          "id": "48437d6e-a851-412e-a490-f8cbf7f54bb2",
+          "sku": "SHK-TEE-001-JE-M",
+          "color": "Jet Black",
+          "size": "M",
+          "stock": 45,
+          "reserved": 0
+        },
+        {
+          "id": "4482a67d-9115-4568-8428-c7251f85d145",
+          "sku": "SHK-TEE-001-CH-L",
+          "color": "Charcoal Gray",
+          "size": "L",
+          "stock": 47,
+          "reserved": 0
+        },
+        {
+          "id": "ac904359-5137-4ee9-a4fd-33dd1d3104e0",
+          "sku": "SHK-TEE-001-SA-L",
+          "color": "Sage Green",
+          "size": "L",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "d23349ca-7a3e-4378-8106-098cc4e30ed2",
+          "sku": "SHK-TEE-001-PU-L",
+          "color": "Pure White",
+          "size": "L",
+          "stock": 63,
+          "reserved": 0
+        },
+        {
+          "id": "f545abb2-fc76-4673-973b-7f3de0c63f4d",
+          "sku": "SHK-TEE-001-JE-L",
+          "color": "Jet Black",
+          "size": "L",
+          "stock": 58,
+          "reserved": 0
+        },
+        {
+          "id": "ac9407c0-6e15-4143-9eed-f5453a1468e6",
+          "sku": "SHK-TEE-001-CH-XL",
+          "color": "Charcoal Gray",
+          "size": "XL",
+          "stock": 64,
+          "reserved": 0
+        },
+        {
+          "id": "bdf148cc-b48d-420f-9d9d-3e946be322ea",
+          "sku": "SHK-TEE-001-SA-XL",
+          "color": "Sage Green",
+          "size": "XL",
+          "stock": 49,
+          "reserved": 0
+        },
+        {
+          "id": "ef895028-1e5c-4f1a-995c-95c71430cee3",
+          "sku": "SHK-TEE-001-PU-XL",
+          "color": "Pure White",
+          "size": "XL",
+          "stock": 46,
+          "reserved": 0
+        },
+        {
+          "id": "25b8ae41-a87b-402f-bd8f-cf3edc3526e0",
+          "sku": "SHK-TEE-001-JE-XL",
+          "color": "Jet Black",
+          "size": "XL",
+          "stock": 55,
+          "reserved": 0
+        },
+        {
+          "id": "41197c2e-2fcc-4bec-998f-1c5e03dbc56a",
+          "sku": "SHK-TEE-001-CH-XXL",
+          "color": "Charcoal Gray",
+          "size": "XXL",
+          "stock": 49,
+          "reserved": 0
+        },
+        {
+          "id": "33cf294b-6b52-4a9b-a679-988c2cf3adb4",
+          "sku": "SHK-TEE-001-SA-M",
+          "color": "Sage Green",
+          "size": "M",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "699abc92-1e28-4c76-b767-b18a4c1b5399",
+          "sku": "SHK-TEE-001-SA-XXL",
+          "color": "Sage Green",
+          "size": "XXL",
+          "stock": 27,
+          "reserved": 0
+        },
+        {
+          "id": "361917ba-9b4c-4d78-a567-8f1ccf26a722",
+          "sku": "SHK-TEE-001-PU-XXL",
+          "color": "Pure White",
+          "size": "XXL",
+          "stock": 45,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288289427,
+      "updatedAt": 1791288289427
+    },
+    {
+      "id": "61313b3c-25a7-4365-ad5b-5b4b35432528",
+      "name": "Cyber-Samurai Printed Streetwear Graphic Tee",
+      "productType": "printed",
+      "productTypes": [
+        "printed"
+      ],
+      "category": "Printed T-Shirts",
+      "price": 750,
+      "originalPrice": 890,
+      "wholesalePrice": 490,
+      "minWholesaleQty": 20,
+      "image": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&auto=format&fit=crop&q=80",
+          "label": "Cyber-Samurai Printed Streetwear Graphic Tee"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=800&auto=format&fit=crop&q=80",
+          "label": "Cyber-Samurai Printed Streetwear Graphic Tee"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&auto=format&fit=crop&q=80",
+          "label": "Cyber-Samurai Printed Streetwear Graphic Tee"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Vintage Washed Black",
+          "hex": "#1f2421"
+        },
+        {
+          "name": "Off-White Ivory",
+          "hex": "#f4f1ea"
+        },
+        {
+          "name": "Midnight Navy",
+          "hex": "#1e293b"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "description": "Ultra-high density DTF graphic back print with front minimal chest logo. Crafted from 220 GSM super-soft combed cotton with crack-resistant plastisol finish.",
+      "shortDescription": "High-Density Graphic Print • 220 GSM Cotton",
+      "fabric": "100% Combed Cotton",
+      "gsm": "220 GSM",
+      "fit": "Oversized Streetwear",
+      "badge": "Popular",
+      "sku": "SHK-PRT-002",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "printed",
+        "graphic",
+        "streetwear",
+        "cyberpunk",
+        "anime"
+      ],
+      "variants": [
+        {
+          "id": "875a5142-b61f-4a7e-aa0a-75275c85e731",
+          "sku": "SHK-PRT-002-VI-M",
+          "color": "Vintage Washed Black",
+          "size": "M",
+          "stock": 30,
+          "reserved": 0
+        },
+        {
+          "id": "d7c7a316-e21a-4873-b4b1-383869d72430",
+          "sku": "SHK-PRT-002-OF-L",
+          "color": "Off-White Ivory",
+          "size": "L",
+          "stock": 30,
+          "reserved": 0
+        },
+        {
+          "id": "f84655fa-703f-4046-a2c9-1a9b4ec4cc57",
+          "sku": "SHK-PRT-002-MI-XL",
+          "color": "Midnight Navy",
+          "size": "XL",
+          "stock": 45,
+          "reserved": 0
+        },
+        {
+          "id": "345e89c5-f8ed-4efb-9397-10acd30e1483",
+          "sku": "SHK-PRT-002-VI-L",
+          "color": "Vintage Washed Black",
+          "size": "L",
+          "stock": 46,
+          "reserved": 0
+        },
+        {
+          "id": "b4bd58e3-d60d-482f-9c95-e8aa875775a8",
+          "sku": "SHK-PRT-002-OF-XL",
+          "color": "Off-White Ivory",
+          "size": "XL",
+          "stock": 40,
+          "reserved": 0
+        },
+        {
+          "id": "8a8cc3d3-eda6-4c6c-b92e-902d93bf37c0",
+          "sku": "SHK-PRT-002-MI-XXL",
+          "color": "Midnight Navy",
+          "size": "XXL",
+          "stock": 59,
+          "reserved": 0
+        },
+        {
+          "id": "f74be966-7d93-4630-9b45-941c6f5cd0a3",
+          "sku": "SHK-PRT-002-VI-XL",
+          "color": "Vintage Washed Black",
+          "size": "XL",
+          "stock": 51,
+          "reserved": 0
+        },
+        {
+          "id": "9950878f-3b07-4daf-bf7a-0dcdd2c17e98",
+          "sku": "SHK-PRT-002-OF-XXL",
+          "color": "Off-White Ivory",
+          "size": "XXL",
+          "stock": 53,
+          "reserved": 0
+        },
+        {
+          "id": "98883c8f-1e8a-479c-8d8b-097f28cc83c2",
+          "sku": "SHK-PRT-002-VI-XXL",
+          "color": "Vintage Washed Black",
+          "size": "XXL",
+          "stock": 58,
+          "reserved": 0
+        },
+        {
+          "id": "3692b655-fbee-435f-bda5-3f870702a5d3",
+          "sku": "SHK-PRT-002-MI-M",
+          "color": "Midnight Navy",
+          "size": "M",
+          "stock": 48,
+          "reserved": 0
+        },
+        {
+          "id": "c0e1f68b-948f-4f93-a4ba-b7c951fd457e",
+          "sku": "SHK-PRT-002-OF-M",
+          "color": "Off-White Ivory",
+          "size": "M",
+          "stock": 57,
+          "reserved": 0
+        },
+        {
+          "id": "0ea5e2ec-76e5-4f23-9ed7-0b3c13f36f7c",
+          "sku": "SHK-PRT-002-MI-L",
+          "color": "Midnight Navy",
+          "size": "L",
+          "stock": 36,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288295063,
+      "updatedAt": 1791288295063
+    },
+    {
+      "id": "9ff541a7-8ca4-47d3-87cc-4bcc1800c327",
+      "name": "Tokyo Underground Kanji Printed Heavyweight Tee",
+      "productType": "printed",
+      "productTypes": [
+        "printed"
+      ],
+      "category": "Printed T-Shirts",
+      "price": 690,
+      "originalPrice": 850,
+      "wholesalePrice": 450,
+      "minWholesaleQty": 25,
+      "image": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=800&auto=format&fit=crop&q=80",
+          "label": "Tokyo Underground Kanji Printed Heavyweight Tee"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+          "label": "Tokyo Underground Kanji Printed Heavyweight Tee"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Jet Black",
+          "hex": "#111827"
+        },
+        {
+          "name": "Chalk White",
+          "hex": "#ffffff"
+        }
+      ],
+      "sizes": [
+        "S",
+        "L",
+        "M",
+        "XL"
+      ],
+      "description": "Futuristic Japanese Kanji and brutalist typography screen print. Breathable inks with soft hand-feel that never fades through washing.",
+      "shortDescription": "Brutalist Kanji Graphic • Screen Printed",
+      "fabric": "100% Organic Combed Cotton",
+      "gsm": "230 GSM",
+      "fit": "Boxy Drop Shoulder",
+      "badge": "Trending",
+      "sku": "SHK-PRT-003",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "printed",
+        "typography",
+        "japanese",
+        "kanji",
+        "streetwear"
+      ],
+      "variants": [
+        {
+          "id": "b5e1cc8b-3cfe-4477-8037-b4f7fd4703e7",
+          "sku": "SHK-PRT-003-JE-S",
+          "color": "Jet Black",
+          "size": "S",
+          "stock": 60,
+          "reserved": 0
+        },
+        {
+          "id": "e9693527-1c16-40e7-b9bc-5e1bcbe0317e",
+          "sku": "SHK-PRT-003-CH-L",
+          "color": "Chalk White",
+          "size": "L",
+          "stock": 48,
+          "reserved": 0
+        },
+        {
+          "id": "61b255fd-1b29-444c-aa45-0867b8c91d86",
+          "sku": "SHK-PRT-003-JE-M",
+          "color": "Jet Black",
+          "size": "M",
+          "stock": 42,
+          "reserved": 0
+        },
+        {
+          "id": "e0c16d3d-8dc9-4379-a5a1-8fae4f7a8200",
+          "sku": "SHK-PRT-003-CH-XL",
+          "color": "Chalk White",
+          "size": "XL",
+          "stock": 50,
+          "reserved": 0
+        },
+        {
+          "id": "9ab563a5-4e38-47d3-a345-5b1522885810",
+          "sku": "SHK-PRT-003-JE-L",
+          "color": "Jet Black",
+          "size": "L",
+          "stock": 30,
+          "reserved": 0
+        },
+        {
+          "id": "9506cfd0-cd36-4fef-b6fc-5104d39a0de1",
+          "sku": "SHK-PRT-003-CH-S",
+          "color": "Chalk White",
+          "size": "S",
+          "stock": 30,
+          "reserved": 0
+        },
+        {
+          "id": "0e2a3ea1-2f14-42ee-b9ba-cf38c5dcd420",
+          "sku": "SHK-PRT-003-JE-XL",
+          "color": "Jet Black",
+          "size": "XL",
+          "stock": 54,
+          "reserved": 0
+        },
+        {
+          "id": "6a120a6d-b656-42b8-a7e8-826030c4ad4e",
+          "sku": "SHK-PRT-003-CH-M",
+          "color": "Chalk White",
+          "size": "M",
+          "stock": 43,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288298852,
+      "updatedAt": 1791288298852
+    },
+    {
+      "id": "113269dc-1aa3-45e3-94f2-6b53ea385641",
+      "name": "Heavyweight Fleece Drop-Shoulder Hoodie",
+      "productType": "normal",
+      "productTypes": [
+        "normal"
+      ],
+      "category": "Hoodies",
+      "price": 1450,
+      "originalPrice": 1850,
+      "wholesalePrice": 990,
+      "minWholesaleQty": 15,
+      "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800&auto=format&fit=crop&q=80",
+          "label": "Heavyweight Fleece Drop-Shoulder Hoodie"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?w=800&auto=format&fit=crop&q=80",
+          "label": "Heavyweight Fleece Drop-Shoulder Hoodie"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Charcoal Heather",
+          "hex": "#374151"
+        },
+        {
+          "name": "Bone White",
+          "hex": "#f5f5f4"
+        },
+        {
+          "name": "Forest Green",
+          "hex": "#0d2822"
+        }
+      ],
+      "sizes": [
+        "XXL",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "380 GSM ultra-heavyweight brushed fleece hoodie. Double-lined hood, seamless kangaroo pocket, pre-shrunk anti-pilling organic fabric.",
+      "shortDescription": "380 GSM Brushed Fleece • Double-Lined Hood",
+      "fabric": "80% Cotton / 20% Polyester Heavy Fleece",
+      "gsm": "380 GSM",
+      "fit": "Oversized Boxy",
+      "badge": "Winter Special",
+      "sku": "SHK-HUD-004",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "hoodie",
+        "winter",
+        "fleece",
+        "heavyweight",
+        "drop-shoulder"
+      ],
+      "variants": [
+        {
+          "id": "e71d0ca3-00a3-4817-9b81-0c67d557a148",
+          "sku": "SHK-HUD-004-CH-XXL",
+          "color": "Charcoal Heather",
+          "size": "XXL",
+          "stock": 30,
+          "reserved": 0
+        },
+        {
+          "id": "a67a6470-eb15-4439-86d0-ffcdb1490655",
+          "sku": "SHK-HUD-004-BO-M",
+          "color": "Bone White",
+          "size": "M",
+          "stock": 31,
+          "reserved": 0
+        },
+        {
+          "id": "a4610daa-0029-4c3c-8ad8-1101eb760764",
+          "sku": "SHK-HUD-004-FO-M",
+          "color": "Forest Green",
+          "size": "M",
+          "stock": 44,
+          "reserved": 0
+        },
+        {
+          "id": "143b9945-b7fa-43eb-a46f-9f4ea46a8456",
+          "sku": "SHK-HUD-004-BO-L",
+          "color": "Bone White",
+          "size": "L",
+          "stock": 64,
+          "reserved": 0
+        },
+        {
+          "id": "051454e8-a1e8-464a-a819-86a90b2d6625",
+          "sku": "SHK-HUD-004-CH-M",
+          "color": "Charcoal Heather",
+          "size": "M",
+          "stock": 44,
+          "reserved": 0
+        },
+        {
+          "id": "75dbd2a6-7d8a-40e4-b80e-385d9876e28f",
+          "sku": "SHK-HUD-004-FO-L",
+          "color": "Forest Green",
+          "size": "L",
+          "stock": 58,
+          "reserved": 0
+        },
+        {
+          "id": "3ca03484-6959-49fb-94fa-a567007ac102",
+          "sku": "SHK-HUD-004-BO-XL",
+          "color": "Bone White",
+          "size": "XL",
+          "stock": 63,
+          "reserved": 0
+        },
+        {
+          "id": "b940039c-c59f-45d9-810f-b23fd715ae3b",
+          "sku": "SHK-HUD-004-CH-L",
+          "color": "Charcoal Heather",
+          "size": "L",
+          "stock": 44,
+          "reserved": 0
+        },
+        {
+          "id": "4b98d1a5-9d93-469d-bb71-7b8d716badbe",
+          "sku": "SHK-HUD-004-FO-XL",
+          "color": "Forest Green",
+          "size": "XL",
+          "stock": 41,
+          "reserved": 0
+        },
+        {
+          "id": "ea343e2c-c04c-49d5-a471-c1d44bbbda06",
+          "sku": "SHK-HUD-004-CH-XL",
+          "color": "Charcoal Heather",
+          "size": "XL",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "8dd92adf-ac11-4c39-9aaa-89215a18960a",
+          "sku": "SHK-HUD-004-FO-XXL",
+          "color": "Forest Green",
+          "size": "XXL",
+          "stock": 36,
+          "reserved": 0
+        },
+        {
+          "id": "51aa9b50-9645-47b1-8de4-de226281f003",
+          "sku": "SHK-HUD-004-BO-XXL",
+          "color": "Bone White",
+          "size": "XXL",
+          "stock": 27,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288301336,
+      "updatedAt": 1791288301336
+    },
+    {
+      "id": "5be3cfaa-ead7-420a-a19f-142871a94dfd",
+      "name": "Urban Puffer Jacket With Utility Pocket Detail",
+      "productType": "normal",
+      "productTypes": [
+        "normal"
+      ],
+      "category": "Jacket",
+      "price": 1950,
+      "originalPrice": 2450,
+      "wholesalePrice": 1350,
+      "minWholesaleQty": 10,
+      "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=800&auto=format&fit=crop&q=80",
+          "label": "Urban Puffer Jacket With Utility Pocket Detail"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=800&auto=format&fit=crop&q=80",
+          "label": "Urban Puffer Jacket With Utility Pocket Detail"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Matte Black",
+          "hex": "#18181b"
+        },
+        {
+          "name": "Silver Ice",
+          "hex": "#e2e8f0"
+        },
+        {
+          "name": "Sage Olive",
+          "hex": "#4d5d53"
+        }
+      ],
+      "sizes": [
+        "XL",
+        "L",
+        "M"
+      ],
+      "description": "Windproof, water-resistant insulated puffer jacket featuring tactical chest pocket, double-slider YKK zipper, and adjustable elastic hem.",
+      "shortDescription": "Water-Resistant • Thermal Insulation",
+      "fabric": "High-Density Ripstop Nylon + Microfiber Fill",
+      "gsm": "300 GSM Fill",
+      "fit": "Relaxed Winter Fit",
+      "badge": "Bestseller",
+      "sku": "SHK-JKT-005",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "puffer",
+        "jacket",
+        "outerwear",
+        "winter",
+        "waterproof"
+      ],
+      "variants": [
+        {
+          "id": "78577a55-038e-4898-8feb-8e62fc43543f",
+          "sku": "SHK-JKT-005-MA-XL",
+          "color": "Matte Black",
+          "size": "XL",
+          "stock": 46,
+          "reserved": 0
+        },
+        {
+          "id": "e9ae74bc-c6a4-4f7a-a749-f7a9dbe2538f",
+          "sku": "SHK-JKT-005-SI-L",
+          "color": "Silver Ice",
+          "size": "L",
+          "stock": 57,
+          "reserved": 0
+        },
+        {
+          "id": "7702238b-9e13-4781-a97e-11d71b04e75b",
+          "sku": "SHK-JKT-005-SA-M",
+          "color": "Sage Olive",
+          "size": "M",
+          "stock": 55,
+          "reserved": 0
+        },
+        {
+          "id": "ff7c82db-31db-4848-be9d-c61876911aa4",
+          "sku": "SHK-JKT-005-SI-XL",
+          "color": "Silver Ice",
+          "size": "XL",
+          "stock": 60,
+          "reserved": 0
+        },
+        {
+          "id": "856cb9b0-289e-49d7-af72-5984070f06aa",
+          "sku": "SHK-JKT-005-SA-L",
+          "color": "Sage Olive",
+          "size": "L",
+          "stock": 50,
+          "reserved": 0
+        },
+        {
+          "id": "38e74077-88b7-45cd-a788-d941c83395a2",
+          "sku": "SHK-JKT-005-MA-M",
+          "color": "Matte Black",
+          "size": "M",
+          "stock": 32,
+          "reserved": 0
+        },
+        {
+          "id": "18668f27-ab24-4f1e-b67d-3e65039b132f",
+          "sku": "SHK-JKT-005-SA-XL",
+          "color": "Sage Olive",
+          "size": "XL",
+          "stock": 51,
+          "reserved": 0
+        },
+        {
+          "id": "f33635de-3cb8-454a-8c99-28fcef86e919",
+          "sku": "SHK-JKT-005-MA-L",
+          "color": "Matte Black",
+          "size": "L",
+          "stock": 32,
+          "reserved": 0
+        },
+        {
+          "id": "40920835-1d36-4445-b2e7-4910e8f05263",
+          "sku": "SHK-JKT-005-SI-M",
+          "color": "Silver Ice",
+          "size": "M",
+          "stock": 62,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288305061,
+      "updatedAt": 1791288305061
+    },
+    {
+      "id": "18b4a9ec-d2e4-4642-ab0f-51c0423db39c",
+      "name": "B2B Wholesale Combed Cotton Blank Tees (Factory Bulk)",
+      "productType": "wholesale",
+      "productTypes": [
+        "wholesale",
+        "normal"
+      ],
+      "category": "Wholesale",
+      "price": 490,
+      "originalPrice": 650,
+      "wholesalePrice": 340,
+      "minWholesaleQty": 25,
+      "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&auto=format&fit=crop&q=80",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&auto=format&fit=crop&q=80",
+          "label": "B2B Wholesale Combed Cotton Blank Tees (Factory Bulk)"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=800&auto=format&fit=crop&q=80",
+          "label": "B2B Wholesale Combed Cotton Blank Tees (Factory Bulk)"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Jet Black Only",
+          "hex": "#111827"
+        },
+        {
+          "name": "Pure White Only",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Assorted Core Colors",
+          "hex": "#374151"
+        }
+      ],
+      "sizes": [
+        "L",
+        "XL",
+        "S",
+        "XXL",
+        "M"
+      ],
+      "description": "Factory-direct rate matrix order for clothing brands, print-on-demand studios, and corporate merchandise. 210-240 GSM 100% combed cotton blanks.",
+      "shortDescription": "Factory Bulk Pricing • Min Order 25 pcs",
+      "fabric": "100% Combed Compact Cotton",
+      "gsm": "220 GSM",
+      "fit": "Regular / Drop Shoulder Mix",
+      "badge": "B2B Wholesale",
+      "sku": "SHK-WHL-006",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "wholesale",
+        "bulk",
+        "b2b",
+        "factory",
+        "blanks"
+      ],
+      "variants": [
+        {
+          "id": "c207a733-0bb1-42f5-84ae-26b67207dd92",
+          "sku": "SHK-WHL-006-JE-L",
+          "color": "Jet Black Only",
+          "size": "L",
+          "stock": 46,
+          "reserved": 0
+        },
+        {
+          "id": "3daebe73-afb5-4b32-83cd-0e19b4d58a15",
+          "sku": "SHK-WHL-006-PU-XL",
+          "color": "Pure White Only",
+          "size": "XL",
+          "stock": 35,
+          "reserved": 0
+        },
+        {
+          "id": "4caa38e0-6d54-489a-9ef7-959357aa05ea",
+          "sku": "SHK-WHL-006-AS-S",
+          "color": "Assorted Core Colors",
+          "size": "S",
+          "stock": 37,
+          "reserved": 0
+        },
+        {
+          "id": "16208098-42ff-4121-ba01-bf9a0f461192",
+          "sku": "SHK-WHL-006-AS-XXL",
+          "color": "Assorted Core Colors",
+          "size": "XXL",
+          "stock": 33,
+          "reserved": 0
+        },
+        {
+          "id": "08fdef4a-8378-48be-9902-e3b104c8f069",
+          "sku": "SHK-WHL-006-JE-XL",
+          "color": "Jet Black Only",
+          "size": "XL",
+          "stock": 56,
+          "reserved": 0
+        },
+        {
+          "id": "58bbf186-cff7-477b-ad8e-8f2a6365cc7e",
+          "sku": "SHK-WHL-006-PU-XXL",
+          "color": "Pure White Only",
+          "size": "XXL",
+          "stock": 26,
+          "reserved": 0
+        },
+        {
+          "id": "034516f8-41f3-480d-8834-28fe2478a658",
+          "sku": "SHK-WHL-006-AS-M",
+          "color": "Assorted Core Colors",
+          "size": "M",
+          "stock": 42,
+          "reserved": 0
+        },
+        {
+          "id": "8ad132d7-a512-473b-94c3-655354be9a3c",
+          "sku": "SHK-WHL-006-JE-S",
+          "color": "Jet Black Only",
+          "size": "S",
+          "stock": 28,
+          "reserved": 0
+        },
+        {
+          "id": "aafba626-64fd-430c-90a2-a83a4d41c1ba",
+          "sku": "SHK-WHL-006-PU-S",
+          "color": "Pure White Only",
+          "size": "S",
+          "stock": 50,
+          "reserved": 0
+        },
+        {
+          "id": "53efdc8d-9eaf-4faf-bae7-c294792543c5",
+          "sku": "SHK-WHL-006-JE-XXL",
+          "color": "Jet Black Only",
+          "size": "XXL",
+          "stock": 51,
+          "reserved": 0
+        },
+        {
+          "id": "6cec0f24-ff95-450f-a67f-49b2304e4cdf",
+          "sku": "SHK-WHL-006-AS-L",
+          "color": "Assorted Core Colors",
+          "size": "L",
+          "stock": 38,
+          "reserved": 0
+        },
+        {
+          "id": "9ff43339-e03a-4b9f-8f8f-885e60ed93e1",
+          "sku": "SHK-WHL-006-JE-M",
+          "color": "Jet Black Only",
+          "size": "M",
+          "stock": 41,
+          "reserved": 0
+        },
+        {
+          "id": "6f4de689-75df-4666-a5e0-93bcfacb0348",
+          "sku": "SHK-WHL-006-PU-M",
+          "color": "Pure White Only",
+          "size": "M",
+          "stock": 35,
+          "reserved": 0
+        },
+        {
+          "id": "f904f98b-9482-4e30-a32c-251eac09946e",
+          "sku": "SHK-WHL-006-AS-XL",
+          "color": "Assorted Core Colors",
+          "size": "XL",
+          "stock": 41,
+          "reserved": 0
+        },
+        {
+          "id": "91a2d318-8ebe-4bd1-8a76-672696e557b8",
+          "sku": "SHK-WHL-006-PU-L",
+          "color": "Pure White Only",
+          "size": "L",
+          "stock": 25,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791288308017,
+      "updatedAt": 1791288308017
+    },
+    {
+      "id": "09cd0fa7-142e-4caf-93e3-db7ff2179e70",
+      "name": "G",
+      "productType": "normal",
+      "productTypes": [
+        "normal"
+      ],
+      "category": "T-Shirts",
+      "price": 650,
+      "minWholesaleQty": 25,
+      "image": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791033238919_1791033228083_g-7498-main.png",
+      "images": [
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791033238919_1791033228083_g-7498-main.png",
+          "label": "G"
+        },
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791033240246_1791033229417_g-7498-gallery-0.png",
+          "label": "G"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Pure White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "Charcoal Gray",
+          "hex": "#374151"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "Heavyweight combed compact cotton garment.",
+      "shortDescription": "Premium streetwear essential.",
+      "fabric": "100% Combed Cotton",
+      "gsm": "220 GSM",
+      "fit": "Relaxed Drop Shoulder",
+      "badge": "New Arrival",
+      "sku": "SHK-T-S-530",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "streetwear",
+        "cotton"
+      ],
+      "variants": [
+        {
+          "id": "bdf287d8-e260-419a-b61d-a640f56ce0e2",
+          "sku": "SHK-T-S-530-PU-S",
+          "color": "Pure White",
+          "size": "S",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "ceee7982-c143-43e2-bf7a-0f2feda1d577",
+          "sku": "SHK-T-S-530-CH-S",
+          "color": "Charcoal Gray",
+          "size": "S",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "123712a2-b04d-4c3e-8f68-8cd39bc65d26",
+          "sku": "SHK-T-S-530-PU-M",
+          "color": "Pure White",
+          "size": "M",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "8b645646-7368-45b9-9dd4-a351ccf07de6",
+          "sku": "SHK-T-S-530-PU-L",
+          "color": "Pure White",
+          "size": "L",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "379627d5-ae66-429e-b4a0-7ecc6c504dda",
+          "sku": "SHK-T-S-530-CH-M",
+          "color": "Charcoal Gray",
+          "size": "M",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "260781d5-b555-46d7-875c-2241229517cc",
+          "sku": "SHK-T-S-530-CH-L",
+          "color": "Charcoal Gray",
+          "size": "L",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "6fcba523-f981-4f8c-aa3b-c1df8cac3a82",
+          "sku": "SHK-T-S-530-PU-XL",
+          "color": "Pure White",
+          "size": "XL",
+          "stock": 25,
+          "reserved": 0
+        },
+        {
+          "id": "1c6c12cb-1eb7-4d04-829f-41567a71b331",
+          "sku": "SHK-T-S-530-CH-XL",
+          "color": "Charcoal Gray",
+          "size": "XL",
+          "stock": 25,
+          "reserved": 0
+        }
+      ],
+      "status": "archived",
+      "createdAt": 1791288313226,
+      "updatedAt": 1791288313226
+    },
+    {
+      "id": "f05b9604-d246-4cc6-9d42-182991bb2d2c",
+      "name": "2 pis combo offer",
+      "productType": "normal",
+      "productTypes": [
+        "normal",
+        "printed"
+      ],
+      "category": "T-Shirts, Printed T-Shirts",
+      "price": 899,
+      "minWholesaleQty": 25,
+      "image": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791286734481_1791286734847_2-pis-combo-offer-4846-main.png",
+      "images": [
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791286734481_1791286734847_2-pis-combo-offer-4846-main.png",
+          "label": "2 pis combo offer"
+        },
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791286736762_1791286737114_2-pis-combo-offer-4846-gallery-0.png",
+          "label": "2 pis combo offer"
+        },
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791286737527_1791286737778_2-pis-combo-offer-4846-gallery-1.png",
+          "label": "2 pis combo offer"
+        },
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791286738715_1791286739003_2-pis-combo-offer-4846-gallery-2.png",
+          "label": "2 pis combo offer"
+        },
+        {
+          "url": "https://dxgsuxbvhebymyuesdbm.supabase.co/storage/v1/object/public/product-images/catalog/1791286739550_1791286740052_2-pis-combo-offer-4846-gallery-3.png",
+          "label": "2 pis combo offer"
+        }
+      ],
+      "colors": [
+        {
+          "name": "Pure White",
+          "hex": "#ffffff"
+        },
+        {
+          "name": "black",
+          "hex": "#000000"
+        }
+      ],
+      "sizes": [
+        "XL",
+        "L",
+        "M"
+      ],
+      "description": "comfortable drop shoulder 230-250 gsm",
+      "shortDescription": "Technical outerwear with pocket detail.",
+      "fabric": "Lecra cotton 95%,spandex 5%",
+      "gsm": "230-250 GSM",
+      "fit": "Relaxed Fit",
+      "badge": "New Arrival",
+      "sku": "ferrari combo ",
+      "brand": "Shokh Outfits",
+      "tags": [
+        "puffer",
+        "jacket",
+        "streetwear"
+      ],
+      "variants": [
+        {
+          "id": "0567b493-6196-4b8b-bb1e-8b1492d2f8bb",
+          "sku": "ferrari combo -PU-XL",
+          "color": "Pure White",
+          "size": "XL",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "05048cf3-a6f4-408f-8fa7-37fec6932482",
+          "sku": "ferrari combo -PU-L",
+          "color": "Pure White",
+          "size": "L",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "9e3d584d-cd80-4ffa-a4d1-dcdba7c4bc6d",
+          "sku": "ferrari combo -BL-M",
+          "color": "black",
+          "size": "M",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "1c1eb318-b907-4d1d-84c2-1323b0848143",
+          "sku": "ferrari combo -BL-XL",
+          "color": "black",
+          "size": "XL",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "02aa9255-9fbf-495f-944d-7e66ae51b521",
+          "sku": "ferrari combo -BL-L",
+          "color": "black",
+          "size": "L",
+          "stock": 77,
+          "reserved": 0
+        },
+        {
+          "id": "2bf76b85-e918-453f-9b58-ca69165ee714",
+          "sku": "ferrari combo -PU-M",
+          "color": "Pure White",
+          "size": "M",
+          "stock": 77,
+          "reserved": 0
+        }
+      ],
+      "status": "active",
+      "createdAt": 1791286736292,
+      "updatedAt": 1791286736292
+    }
+  ],
+  "orders": [],
+  "customOrders": [],
+  "wholesaleOrders": [],
+  "coupons": [],
+  "reviews": [],
+  "activityLogs": [],
+  "notifications": [],
+  "settings": {
+    "businessName": "Shokh Outfits",
+    "tagline": "Minimalist Streetwear & Custom Garments",
+    "phone": "+880 1346-068854",
+    "whatsapp": "+880 1346-068854",
+    "email": "contact@shokhoutfits.com",
+    "address": "Directly opposite Techno Showroom, Agamasi Lane, Kazi Alauddin Road, Nazira Bazar, Old Dhaka, Bangladesh",
+    "deliveryChargeInsideDhaka": 70,
+    "deliveryChargeOutsideDhaka": 130,
+    "freeDeliveryThreshold": 2500,
+    "lowStockThreshold": 10,
+    "defaultMinWholesaleQty": 25,
+    "codEnabled": true,
+    "bkashEnabled": true,
+    "bkashMerchantNumber": "01346068854",
+    "announcementText": "🎉 Free Delivery on orders over ৳2500 across Bangladesh!",
+    "announcementActive": true,
+    "metaPixelEnabled": true,
+    "metaPixelId": "4455123488042747",
+    "metaAccessToken": "EAAMVeXfzl2YBSoLiAA7eeVpxBdtISYLgCez7LzTOtZBhf5dzar54xQSLQeoHROun6Bvz8bS53gRZC5ZB1KoIV6TAKBChwtBdMueEicCndm8faUolnbJpE9wSs2pzAhC3R1vmWDii88dlZCV3HMTEhAXXVCijsi2SzoVC3XDIrpU4fztGiA1rO9xaqxyafQZDZD",
+    "metaTestEventCode": "TEST89137",
+    "metaCapiEnabled": true
+  },
+  "sessions": []
+}

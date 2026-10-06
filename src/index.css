@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #374151;
+    background-color: #FAF9F5;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .dark body {
+    color: #f3f4f6;
+    background-color: #0f1115;
+  }
+}
+
+/* Glassmorphic Floating Navbar - Square with rounded corners */
+.neumorphic-navbar-bar {
+  background: rgba(250, 249, 245, 0.85);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 
+    0 8px 30px -4px rgba(0, 0, 0, 0.05),
+    0 2px 8px -2px rgba(0, 0, 0, 0.03),
+    0 1px 0 0 rgba(255, 255, 255, 0.9) inset;
+}
+
+.dark .neumorphic-navbar-bar {
+  background: rgba(23, 25, 30, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 10px 32px -4px rgba(0, 0, 0, 0.6),
+    0 2px 8px -2px rgba(0, 0, 0, 0.4),
+    0 1px 0 0 rgba(255, 255, 255, 0.06) inset;
+}
+
+/* Pressed / debossed active tab inside the navigation bar */
+.neumorphic-active-pill {
+  background: rgba(240, 238, 230, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  box-shadow: 
+    inset 0 1px 2px rgba(0, 0, 0, 0.08),
+    0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+.dark .neumorphic-active-pill {
+  background: rgba(45, 49, 58, 0.9);
+  box-shadow: 
+    inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* Subtle interactive button for search, cart & favorites */
+.neumorphic-btn {
+  background: rgba(250, 249, 245, 0.70);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(229, 226, 218, 0.7);
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 1px 2px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+.dark .neumorphic-btn {
+  background: rgba(30, 33, 40, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.neumorphic-btn:hover {
+  background: rgba(255, 255, 255, 0.90);
+  box-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.dark .neumorphic-btn:hover {
+  background: rgba(42, 46, 56, 0.95);
+  box-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.neumorphic-btn:active {
+  box-shadow: 
+    inset 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.dark .neumorphic-btn:active {
+  box-shadow: 
+    inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #15181e;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4D4D4;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #374151;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

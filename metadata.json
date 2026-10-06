@@ -1,0 +1,8 @@
+{
+  "name": "Remix Shokh Outfits BD- Minimalist Clothing \u0026 Custom Printing",
+  "description": "Premium Bangladesh-based clothing and custom printing store for T-shirts, hoodies, wholesale, and bespoke apparel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,7 @@
+id,name,slug,description,image_url,is_active,sort_order,created_at,updated_at
+0b45e237-fc22-473d-85fc-1b4123239ffd,T-Shirts,t-shirts,Combed cotton minimalist crewnecks and blanks,,true,1,2026-10-01T15:54:52.031729+00:00,2026-10-01T15:54:52.031729+00:00
+95c9a030-b1a3-46de-80d2-25f15189d386,Printed T-Shirts,printed-t-shirts,High-density screen printed and graphic streetwear tees,,true,2,2026-10-01T15:54:52.031729+00:00,2026-10-01T15:54:52.031729+00:00
+eb6148bf-e0f2-438a-bb2b-7540fe706bc4,Hoodies,hoodies,Heavyweight brushed fleece drop-shoulder winter hoodies,,true,3,2026-10-01T15:54:52.031729+00:00,2026-10-01T15:54:52.031729+00:00
+ed60558c-c6cf-4ce6-b7c1-63eeccb6f158,Custom T-Shirts,custom-t-shirts,Personalized custom printed bulk and team apparel,,true,4,2026-10-01T15:54:52.031729+00:00,2026-10-01T15:54:52.031729+00:00
+7f2c00cf-ee99-42a4-8a16-ba3ebb14142f,Wholesale,wholesale,B2B factory rate matrix orders for clothing brands,,true,5,2026-10-01T15:54:52.031729+00:00,2026-10-01T15:54:52.031729+00:00
+b1b729ee-68a0-416a-bc1d-88efb8a9811b,Jacket,jacket,"Puffers, utility outerwear and windbreakers",,true,0,2026-10-03T11:50:21.609336+00:00,2026-10-03T11:50:21.609336+00:00
